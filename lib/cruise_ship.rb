@@ -8,4 +8,7 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+  passengers.each do |key|
+    passengers[:key].start_with? "A"
+  end
 end
